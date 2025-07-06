@@ -1,13 +1,20 @@
 ---
-title: "Google Software Engineering Intern"
-description: "Worked on scalable backend systems."
-start: "Jun 2018"
-end: "Sep 2018"
-image: "google.png"
+title: "MS Lesion Diagnosis and Classification"
+description: "AI-powered medical imaging analysis for multiple sclerosis diagnosis."
+start: "Jan 2023"
+end: "Dec 2023"
+image: "google.jpg"
 ---
-### Achievements
-- Built a microservice in Go
-- Improved latency by 30%
-- Mentored by senior engineers
+### Project Overview
+- Developed machine learning models for MS lesion detection
+- Implemented image segmentation algorithms
+- Achieved 95% accuracy in lesion classification
+- Collaborated with medical professionals for validation
 
-![Google Logo](images/google.jpg)
+### Technologies Used
+- Python, TensorFlow, OpenCV
+- Medical imaging (MRI) processing
+- Deep learning and computer vision
+- Clinical data analysis
+
+![MS Lesion Analysis](images/google.jpg)

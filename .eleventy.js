@@ -8,7 +8,7 @@ module.exports = function(eleventyConfig) {
   // Copy static files
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/js");
-  eleventyConfig.addPassthroughCopy("content/**/images");
+  eleventyConfig.addPassthroughCopy("content/**/*.{png,jpg,jpeg,gif,svg}");
   eleventyConfig.addPassthroughCopy("public");
 
   // Set up Markdown
