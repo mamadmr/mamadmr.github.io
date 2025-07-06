@@ -3,7 +3,7 @@ title: "Mano MicroProgram CPU"
 description: "FPGA implementation and Python simulator for Mano CPU architecture"
 start: "2023"
 end: "2023"
-image: "mano-cpu-fpga.jpg"
+image: ""
 ---
 
 ### Project Overview
@@ -46,4 +46,3 @@ Comprehensive implementation of the Mano MicroProgram CPU architecture, includin
 - Real-time instruction execution monitoring
 - Assembly code debugging capabilities
 
-![Mano CPU on FPGA Board](images/mano-cpu-fpga.jpg)

@@ -3,7 +3,7 @@ title: "Head of AI Cup Kernel Team"
 description: "Led development of AI competition platform and game mechanics"
 start: "Jun 2023"
 end: "Nov 2023"
-image: "ai-cup-platform.png"
+image: ""
 ---
 
 ### Project Leadership
@@ -39,4 +39,3 @@ Led a team of 10 developers to create a comprehensive gaming platform for the AI
 - Real-time systems programming
 - Competition management tools
 
-![AI Cup Competition Platform](images/ai-cup-platform.png)

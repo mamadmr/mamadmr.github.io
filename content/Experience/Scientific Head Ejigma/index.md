@@ -3,7 +3,7 @@ title: "Scientific Head of Ejigma | Ejhei High School"
 description: "Organized programming event to introduce students to Computer Olympiad"
 start: "Jun 2022"
 end: "Jun 2022"
-image: "ejigma-event.jpg"
+image: ""
 ---
 
 ### Event Leadership
@@ -39,4 +39,3 @@ Served as Scientific Head for Ejigma, a specialized programming event designed t
 - **Programming Languages:** Introduction to languages used in competitive programming
 - **Competition Format:** Explanation of Computer Olympiad structure and requirements
 
-![Ejigma Event](images/ejigma-event.jpg)

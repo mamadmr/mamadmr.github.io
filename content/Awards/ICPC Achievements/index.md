@@ -3,7 +3,7 @@ title: "ICPC Achievements and Competition Awards"
 description: "Comprehensive achievements in programming contests and competitions"
 start: "2022"
 end: "2024"
-image: "icpc-team.jpg"
+image: ""
 ---
 
 ### ICPC Competition Results
@@ -53,4 +53,3 @@ Achieved exceptional performance in the International Collegiate Programming Con
 - Gained valuable teamwork and leadership experience
 - Established reputation for technical excellence and innovation
 
-![ICPC Competition Team](images/icpc-team.jpg)

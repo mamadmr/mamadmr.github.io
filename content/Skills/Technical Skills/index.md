@@ -3,7 +3,7 @@ title: "Technical Skills and Tools"
 description: "Comprehensive overview of programming languages, frameworks, and development tools"
 start: "2017"
 end: "Present"
-image: "technical-skills.jpg"
+image: ""
 ---
 
 ### Programming Languages
@@ -61,4 +61,3 @@ Proficient in multiple programming languages with extensive experience in variou
 - **Open Source:** Contributing to and utilizing open-source projects
 - **Community Engagement:** Participating in technical communities and forums
 
-![Technical Skills](images/technical-skills.jpg)

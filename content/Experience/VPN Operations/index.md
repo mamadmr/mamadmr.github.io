@@ -3,7 +3,7 @@ title: "VPN Operations and Infrastructure"
 description: "Self-Managed network infrastructure with Nginx, Xray, and CDN integration"
 start: "Oct 2022"
 end: "Present"
-image: "vpn-architecture.png"
+image: ""
 ---
 
 ### Technical Infrastructure
@@ -30,4 +30,3 @@ image: "vpn-architecture.png"
 - Automated certificate management
 - Real-time performance monitoring
 
-![VPN Network Architecture](images/vpn-architecture.png)

@@ -3,7 +3,7 @@ title: "Basic Programming TA | Isfahan University of Technology"
 description: "Designed programming problems and taught Python and C/C++ to students"
 start: "Sep 2021"
 end: "Apr 2022"
-image: "basic-programming-ta.jpg"
+image: ""
 ---
 
 ### Teaching Role
@@ -51,4 +51,3 @@ Served as Teaching Assistant for Basic Programming course under the supervision 
 - **Innovative Teaching:** Introduced creative approaches to programming education
 - **Mentorship Success:** Guided students toward programming excellence
 
-![Basic Programming TA](images/basic-programming-ta.jpg)

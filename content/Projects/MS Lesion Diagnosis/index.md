@@ -3,7 +3,7 @@ title: "MS Lesion Diagnosis and Classification"
 description: "UNet neural network for multiple sclerosis lesion detection using MRI images"
 start: "2024"
 end: "2024"
-image: "ms-lesion-detection.png"
+image: ""
 ---
 
 ### Project Overview
@@ -39,4 +39,3 @@ Implemented a sophisticated deep learning solution for diagnosing and classifyin
 - **Validation:** Clinical validation frameworks, performance metrics
 - **Deployment:** Model optimization for clinical environments
 
-![MS Lesion Detection Results](images/ms-lesion-detection.png)

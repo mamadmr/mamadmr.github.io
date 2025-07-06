@@ -3,7 +3,7 @@ title: "About Mohamad Mahdi Reisi"
 description: "Computer Engineering student at Isfahan University of Technology"
 start: ""
 end: ""
-image: "profile.jpg"
+image: ""
 ---
 
 ### Contact Information
@@ -47,4 +47,3 @@ Computer Engineering student at Isfahan University of Technology with a strong a
 - **Collaboration:** Working effectively in team environments
 - **Knowledge Sharing:** Mentoring students and sharing technical expertise
 
-![Profile](images/profile.jpg)

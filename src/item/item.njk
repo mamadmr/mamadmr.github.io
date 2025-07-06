@@ -36,11 +36,12 @@ permalink: /{{ item.tabSlug }}/{{ item.slug }}/
         <p class="text-xl text-gray-600 dark:text-gray-300 mb-6">{{ item.description }}</p>
         {% endif %}
         
-        {% if item.image %}
+        {% if item.image and item.image != "" and item.image != "placeholder.jpg" and item.image != "README.md" %}
         <div class="mb-8">
             <img src="/content/{{ item.tab }}/{{ item.name }}/images/{{ item.image }}" 
                  alt="{{ item.title }}" 
-                 class="w-full h-64 object-cover rounded-lg shadow-lg">
+                 class="w-full h-64 object-cover rounded-lg shadow-lg"
+                 onerror="this.parentElement.style.display='none'">
         </div>
         {% endif %}
     </header>

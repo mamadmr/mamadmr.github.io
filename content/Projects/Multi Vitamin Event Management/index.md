@@ -3,7 +3,7 @@ title: "Multi Vitamin Event Management System"
 description: "Comprehensive competition management system with automated scoring and real-time updates"
 start: "2022"
 end: "2022"
-image: "event-management-dashboard.png"
+image: ""
 ---
 
 ### System Overview
@@ -45,4 +45,3 @@ Developed a comprehensive event management system for student problem-solving co
 - **Automated Workflows:** Eliminated manual scoring and ranking processes
 - **Scalable Design:** Architecture capable of handling varying competition sizes
 
-![Event Management Dashboard](images/event-management-dashboard.png)

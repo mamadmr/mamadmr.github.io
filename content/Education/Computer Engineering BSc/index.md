@@ -3,7 +3,7 @@ title: "Bachelor of Science in Computer Engineering"
 description: "Isfahan University of Technology - GPA: 3.80, Top 5% of students"
 start: "2021"
 end: "Present"
-image: "iut-campus.jpg"
+image: ""
 ---
 
 ### Academic Excellence
@@ -33,4 +33,3 @@ image: "iut-campus.jpg"
 - Participant in multiple programming contests
 - Research assistant in IoT and computer vision projects
 
-![IUT Campus](images/iut-campus.jpg)

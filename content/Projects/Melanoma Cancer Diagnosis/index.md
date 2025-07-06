@@ -3,7 +3,7 @@ title: "Melanoma Cancer Diagnosis | Image Processing"
 description: "Custom image processing algorithm for melanoma cancer detection and diagnosis"
 start: "2017"
 end: "2017"
-image: "melanoma-diagnosis.jpg"
+image: ""
 ---
 
 ### Project Overview
@@ -51,4 +51,3 @@ Developed a comprehensive image processing algorithm from scratch for melanoma c
 - **Technical Excellence:** Demonstrated ability to create complex algorithms from scratch
 - **Healthcare Application:** Direct application to real-world medical challenges
 
-![Melanoma Diagnosis System](images/melanoma-diagnosis.jpg)

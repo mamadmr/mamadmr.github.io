@@ -3,7 +3,7 @@ title: "RAG Chatbot Development | PayamPardaz"
 description: "LLaMA3-based chatbot with Milvus vector database and Rocket.Chat integration"
 start: "Jul 2024"
 end: "Present"
-image: "chatbot-architecture.png"
+image: ""
 ---
 
 ### Project Overview
@@ -32,4 +32,3 @@ Developed an advanced RAG (Retrieval-Augmented Generation) chatbot system to ans
 - Designed scalable architecture supporting multiple concurrent users
 - Created user-friendly interface for non-technical users
 
-![RAG Chatbot Architecture](images/chatbot-architecture.png)

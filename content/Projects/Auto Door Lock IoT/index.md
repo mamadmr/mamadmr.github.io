@@ -3,7 +3,7 @@ title: "Auto Door Lock | IoT System"
 description: "NodeMCU-based IoT system for smart locker access with real-time monitoring"
 start: "2021"
 end: "2021"
-image: "iot-door-lock.jpg"
+image: ""
 ---
 
 ### Project Overview
@@ -45,4 +45,3 @@ Developed an innovative IoT system using NodeMCU to create smart locker access c
 - **Remote Management:** Ability to manage access remotely
 - **Scalability:** Design allows for multiple locker management
 
-![IoT Door Lock System](images/iot-door-lock.jpg)

@@ -3,7 +3,7 @@ title: "Risk Board Game Implementation"
 description: "Multi-language competitive gaming platform with REST API and bot interface"
 start: "2023"
 end: "2023"
-image: "risk-game-interface.png"
+image: ""
 ---
 
 ### Project Architecture
@@ -45,4 +45,3 @@ Designed and implemented a comprehensive Risk board game platform that supports 
 - Provided educational platform for game theory and AI concepts
 - Fostered collaboration and learning within the programming community
 
-![Risk Game Competition Interface](images/risk-game-interface.png)

@@ -3,7 +3,7 @@ title: "Linear Algebra Teaching Assistant"
 description: "Python implementation of linear algebra concepts and theory assignments"
 start: "Feb 2023"
 end: "Present"
-image: "linear-algebra-python.png"
+image: ""
 ---
 
 ### Teaching Role
@@ -46,4 +46,3 @@ Teaching Assistant for Linear Algebra course under Professors Dr. Ramin Javad an
 - Collaborative coding sessions
 - Visual demonstrations of mathematical concepts
 
-![Linear Algebra Python Implementation](images/linear-algebra-python.png)

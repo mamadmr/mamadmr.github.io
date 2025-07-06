@@ -3,7 +3,7 @@ title: "Computer Network TA | Isfahan University of Technology"
 description: "Designed and evaluated homework assignments for computer networks course"
 start: "Jan 2024"
 end: "Jun 2024"
-image: "computer-network-ta.jpg"
+image: ""
 ---
 
 ### Teaching Role
@@ -45,4 +45,3 @@ Served as Teaching Assistant for Computer Network course under the supervision o
 - **Real-World Application:** Connected theoretical concepts to industry practices
 - **Collaborative Learning:** Fostered environment for peer learning and discussion
 
-![Computer Network TA](images/computer-network-ta.jpg)

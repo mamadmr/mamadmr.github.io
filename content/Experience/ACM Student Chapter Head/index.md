@@ -3,7 +3,7 @@ title: "Head of IUT ACM Student Chapter"
 description: "Leading programming education and organizing competitive programming events"
 start: "Nov 2023"
 end: "Present"
-image: "acm-event.jpg"
+image: ""
 ---
 
 ### Leadership Role
@@ -39,4 +39,3 @@ Leading the Isfahan University of Technology ACM Student Chapter, focused on enh
 - Judging system administration
 - Team coordination and project management
 
-![ACM Programming Contest](images/acm-event.jpg)

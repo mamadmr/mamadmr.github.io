@@ -3,7 +3,7 @@ title: "Python Student Association Member | Math House of Isfahan"
 description: "Developed machine learning projects including alphabet recognition and pedestrian flow prediction"
 start: "Sep 2017"
 end: "Nov 2019"
-image: "python-projects.jpg"
+image: ""
 ---
 
 ### Association Membership
@@ -45,4 +45,3 @@ Active member of the Python Student Association at Math House of Isfahan, focusi
 - **Data Visualization:** Matplotlib, Seaborn for data presentation
 - **Statistical Tools:** Statistical analysis and modeling techniques
 
-![Python Projects](images/python-projects.jpg)

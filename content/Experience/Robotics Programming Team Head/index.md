@@ -3,7 +3,7 @@ title: "Head of Robotics Programming Team | Ejhei High School"
 description: "Mentored high school students in IranOpen Robotics Challenge with ARM processors"
 start: "Jun 2022"
 end: "Apr 2023"
-image: "robotics-team.jpg"
+image: ""
 ---
 
 ### Leadership Role
@@ -38,4 +38,3 @@ Led and mentored high school students in the prestigious IranOpen Robotics Chall
 - **Educational Planning:** Curriculum development for robotics programming
 - **Project Coordination:** Managing multiple student projects simultaneously
 
-![Robotics Team](images/robotics-team.jpg)

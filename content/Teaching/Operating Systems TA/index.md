@@ -3,7 +3,7 @@ title: "Operating Systems Teaching Assistant"
 description: "Assignment evaluation and optional lectures on OS features"
 start: "Sep 2024"
 end: "Present"
-image: "operating-systems-lecture.jpg"
+image: ""
 ---
 
 ### Teaching Role
@@ -40,4 +40,3 @@ Teaching Assistant for Operating Systems course under Professor Dr. Mohammad Rez
 - Real-world examples and case studies
 - Collaborative learning and peer discussion
 
-![Operating Systems Lecture](images/operating-systems-lecture.jpg)

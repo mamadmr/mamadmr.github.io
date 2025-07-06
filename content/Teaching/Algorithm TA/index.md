@@ -3,7 +3,7 @@ title: "Algorithm Teaching Assistant"
 description: "Student debugging support and algorithm homework assistance"
 start: "Sep 2023"
 end: "Jul 2024"
-image: "algorithm-debugging.png"
+image: ""
 ---
 
 ### Teaching Role
@@ -47,4 +47,3 @@ Teaching Assistant for Algorithm course under Professors Dr. Hossein Falsafain a
 - Better understanding of algorithm complexity and optimization
 - Increased confidence in tackling complex programming challenges
 
-![Algorithm Debugging Session](images/algorithm-debugging.png)
