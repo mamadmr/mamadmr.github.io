@@ -66,11 +66,14 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
     
-    // Show tab from URL hash on page load
+    // Show tab from URL hash on page load, default to Education
     window.addEventListener('load', function() {
         const hash = window.location.hash.substring(1);
         if (hash) {
             showTab(hash);
+        } else {
+            // Default to Education tab
+            showTab('education');
         }
     });
 });
