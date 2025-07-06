@@ -209,6 +209,11 @@ a:hover {
     color: #60a5fa;
 }
 
+/* Header anchor links - completely hidden */
+.header-anchor {
+    display: none;
+}
+
 /* Print styles */
 @media print {
     .tab-button,
