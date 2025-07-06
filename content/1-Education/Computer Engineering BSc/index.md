@@ -4,7 +4,6 @@ organization: "Isfahan University of Technology"
 description: "GPA: 3.80, Top 5% of students"
 start: "2021"
 end: "Present"
-showDuration: true
 image: "uni.png"
 showDetails: false
 ---

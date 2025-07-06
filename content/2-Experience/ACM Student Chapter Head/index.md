@@ -11,18 +11,15 @@ image: ""
 ### Leadership & Organization
 Led Isfahan University of Technology ACM Student Chapter, managing a team of 20 student volunteers to enhance programming education and competitive programming culture.
 
-### Major Achievements
+### Key Responsibilities & Achievements
 - **Large-Scale Programming Contest:** Successfully organized and executed programming contest with over 120 participants
 - **Educational Programs:** Developed and delivered workshops on algorithms, data structures, and competitive programming techniques
-- **Community Building:** Built active programming community within the university, significantly increasing participation in competitive programming
 - **Student Mentorship:** Mentored students for ICPC regional contests, improving their performance in national competitions
+- **Community Building:** Built active programming community within the university
 
 ### Technical Responsibilities
-- Contest platform management and configuration
-- Problem statement development and validation
-- Judging system administration and real-time contest monitoring
-- Technical support and troubleshooting during competitions
-
-### Skills & Impact
-Enhanced students' problem-solving abilities through structured training programs and practical contest experience.
+- **Contest Platform:** Management and configuration of contest platforms
+- **Problem Development:** Problem statement development and validation
+- **Judging System:** Administration and real-time contest monitoring
+- **Technical Support:** Troubleshooting during competitions
 

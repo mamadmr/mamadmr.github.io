@@ -7,27 +7,20 @@ image: ""
 ---
 
 ### System Overview
-Developed a comprehensive event management system for student problem-solving competitions in mathematics and physics, supporting large-scale academic competitions.
-
-### Technical Architecture
-- **C# Backend:** Robust server application for competition management
-- **Python Integration:** Specialized modules for data processing and analysis
-- **MySQL Database:** Centralized database for participant data and competition results
-- **Web Interface:** User-friendly interface for participants and administrators
+Event management system for student problem-solving competitions in mathematics and physics, supporting large-scale academic competitions with automated scoring.
 
 ### Key Features
 - **Automated Question Distribution:** Streamlined delivery of competition problems to participants
 - **Real-time Answer Collection:** Immediate capture and processing of participant responses
 - **Automated Scoring:** Intelligent scoring system with immediate result calculation
 - **Live Scoreboard:** Real-time updates of competition standings and rankings
+- **Hardware Integration:** Integrated legacy printers through local web servers
 
-### Hardware Integration
-- **Legacy Printer Support:** Integrated old printers through local web servers
-- **Network Infrastructure:** Designed distributed system architecture for competition venues
-- **Centralized Management:** Single server controlling all competition aspects
-- **Hardware Compatibility:** Ensured compatibility with existing competition equipment
-
-### Competition Management
+### Technologies Used
+- **C#:** Backend server application for competition management
+- **Python:** Specialized modules for data processing and analysis
+- **MySQL:** Centralized database for participant data and competition results
+- **Web Interface:** User-friendly interface for participants and administrators
 - **Multi-Subject Support:** Handled both mathematics and physics competitions
 - **Scalable Architecture:** Supported competitions with hundreds of participants
 - **Real-time Processing:** Immediate processing of submissions and score updates

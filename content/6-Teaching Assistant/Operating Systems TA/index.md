@@ -3,7 +3,8 @@ title: "Operating Systems Teaching Assistant"
 organization: "Isfahan University of Technology"
 description: "Assignment evaluation and optional lectures on OS features"
 start: "Sep 2024"
-end: "Present"
+end: "Jan 2025"
+showDuration: true
 image: ""
 ---
 

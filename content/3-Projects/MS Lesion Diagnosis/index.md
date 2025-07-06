@@ -7,27 +7,18 @@ image: ""
 ---
 
 ### Project Overview
-Implemented a sophisticated deep learning solution for diagnosing and classifying multiple sclerosis (MS) lesions using FLAIR MRI images, enabling automated medical diagnosis assistance.
-
-### Technical Implementation
-- **UNet Architecture:** Implemented UNet neural network specifically designed for medical image segmentation
-- **PyTorch Framework:** Developed the entire model using PyTorch for flexibility and performance
-- **FLAIR MRI Processing:** Specialized in processing FLAIR (Fluid Attenuated Inversion Recovery) MRI sequences
-- **Automated Detection:** Created system for automatic lesion identification and boundary detection
+Deep learning solution for diagnosing and classifying multiple sclerosis (MS) lesions using FLAIR MRI images with UNet neural network architecture.
 
 ### Key Features
-- **Lesion Segmentation:** Precise pixel-level segmentation of MS lesions
+- **Lesion Segmentation:** Precise pixel-level segmentation of MS lesions in MRI images
 - **Classification System:** Automated classification of lesions by type and severity
+- **FLAIR MRI Processing:** Specialized in processing FLAIR (Fluid Attenuated Inversion Recovery) MRI sequences
+- **Automated Detection:** System for automatic lesion identification and boundary detection
+
+### Technologies Used
+- **PyTorch:** Deep learning framework for model development
+- **UNet Architecture:** Neural network specifically designed for medical image segmentation
 - **Medical Image Processing:** Advanced preprocessing techniques for MRI data
-- **Performance Optimization:** Optimized model for clinical deployment requirements
-
-### Technical Achievements
-- **High Accuracy:** Achieved clinically relevant accuracy in lesion detection
-- **Real-time Processing:** Optimized inference time for practical medical use
-- **Robust Architecture:** Designed model to handle variations in MRI acquisition parameters
-- **Validation Framework:** Implemented comprehensive testing with medical expert validation
-
-### Clinical Impact
 - **Diagnostic Assistance:** Provides automated support for radiologists
 - **Consistency:** Reduces inter-observer variability in lesion assessment
 - **Efficiency:** Significantly reduces time required for MS lesion analysis

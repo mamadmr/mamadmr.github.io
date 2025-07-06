@@ -7,27 +7,19 @@ image: ""
 ---
 
 ### Project Overview
-Developed an innovative IoT system using NodeMCU to create smart locker access control with internet connectivity and real-time monitoring capabilities.
-
-### Technical Implementation
-- **NodeMCU Platform:** Utilized ESP8266-based NodeMCU for IoT connectivity
-- **Internet Integration:** Connected lockers to the internet for remote monitoring
-- **Real-time Logging:** Implemented system to record entry and exit data in real-time
-- **Security Features:** Developed password-based access control system
+IoT system using NodeMCU to create smart locker access control with internet connectivity and real-time monitoring capabilities.
 
 ### Key Features
 - **Remote Access:** Authorized phone-based access to lockers
-- **Data Logging:** Comprehensive recording of all access events
-- **Secure Authentication:** Password-based security system
-- **Real-time Monitoring:** Live tracking of locker usage and status
+- **Real-time Logging:** System to record entry and exit data in real-time
+- **Security Features:** Password-based access control system
+- **Internet Integration:** Connected lockers to the internet for remote monitoring
 
-### Technical Achievements
-- **IoT Integration:** Successfully connected physical lockers to internet infrastructure
-- **Mobile Integration:** Enabled smartphone-based access control
-- **Database Management:** Implemented data storage for access logs
-- **Security Implementation:** Robust authentication and authorization system
-
-### Hardware Components
+### Technologies Used
+- **NodeMCU:** ESP8266-based platform for IoT connectivity
+- **IoT Integration:** Internet connectivity for remote monitoring
+- **Mobile Integration:** Smartphone-based access control
+- **Database Management:** Data storage for access logs and security
 - **NodeMCU ESP8266:** Main microcontroller for connectivity and processing
 - **Electronic Lock:** Servo-controlled locking mechanism
 - **Sensors:** Entry/exit detection sensors

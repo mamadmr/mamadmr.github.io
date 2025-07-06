@@ -5,6 +5,7 @@ description: "Designed and evaluated homework assignments for computer networks 
 start: "Jan 2024"
 end: "Jun 2024"
 image: ""
+showDuration: true
 ---
 
 ### Teaching Role

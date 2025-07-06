@@ -7,27 +7,18 @@ image: ""
 ---
 
 ### Project Overview
-Developed a comprehensive image processing algorithm from scratch for melanoma cancer diagnosis, implementing custom feature extraction and comparison techniques for medical image analysis.
-
-### Technical Implementation
-- **From-Scratch Development:** Built entire image processing pipeline without external libraries
-- **Custom Algorithms:** Implemented proprietary feature extraction methods
-- **Medical Focus:** Specialized in dermatological image analysis
-- **Python & NumPy:** Utilized core Python with NumPy for numerical computations
+Custom image processing algorithm for melanoma cancer detection and diagnosis, built from scratch without external libraries.
 
 ### Key Features
-- **Feature Extraction:** Custom algorithms to identify melanoma characteristics
+- **Feature Extraction:** Custom algorithms to identify melanoma characteristics in medical images
 - **Image Comparison:** Comparative analysis system for diagnostic accuracy
-- **Medical Accuracy:** Designed for clinical-grade diagnostic support
-- **Scalable Architecture:** Modular design for easy enhancement and modification
+- **From-Scratch Development:** Built entire image processing pipeline without external libraries
+- **Medical Focus:** Specialized in dermatological image analysis for clinical support
 
-### Technical Achievements
-- **Algorithm Development:** Created novel approaches to medical image analysis
-- **Diagnostic Accuracy:** Achieved reliable melanoma detection rates
-- **Performance Optimization:** Efficient processing for real-time applications
-- **Medical Validation:** Aligned with medical standards for cancer diagnosis
-
-### Image Processing Techniques
+### Technologies Used
+- **Python:** Core programming language
+- **NumPy:** Numerical computations and array processing
+- **Custom Algorithms:** Proprietary feature extraction and comparison methods
 - **Preprocessing:** Image enhancement and noise reduction
 - **Segmentation:** Lesion boundary detection and isolation
 - **Feature Analysis:** Color, texture, and morphological feature extraction

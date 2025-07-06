@@ -7,27 +7,23 @@ image: ""
 ---
 
 ### Project Architecture
-Designed and implemented a comprehensive Risk board game platform that supports competitive AI bot development across multiple programming languages.
+Risk board game platform that supports competitive AI bot development across multiple programming languages with REST API interface.
 
-### Technical Design
-- **Modular Code Structure:** Designed flexible architecture based on game requirements
-- **Team Coordination:** Effectively distributed development tasks among team members
-- **Cross-Language Interface:** Created unified API supporting C, Java, Python, and JavaScript
+### Key Features
+- **Multi-Language Support:** Universal REST API accessible from C, Java, Python, and JavaScript
 - **Bot Competition Framework:** Enabled AI bots to compete against each other in automated tournaments
+- **Modular Code Structure:** Flexible architecture based on game requirements
+- **Team Coordination:** Effectively distributed development tasks among team members
 
-### Multi-Language Support
-- **Universal Interface:** Designed REST API accessible from any programming language
-- **Language Agnostic:** Supported bot development in C, Java, Python, and JavaScript
-- **Standardized Communication:** Implemented consistent protocol for bot-game interaction
-- **Easy Integration:** Simplified bot development process for participants
-
-### Competition Success
+### Usage & Impact
 - **Wide Adoption:** Used by 60 teams comprising approximately 180 participants
 - **Active Competition:** Facilitated competitive bot development and tournaments
-- **Educational Impact:** Provided learning platform for AI and game strategy development
-- **Community Building:** Created vibrant competitive programming community
+- **Educational Platform:** Provided learning environment for AI and game strategy development
 
-### Technical Features
+### Technologies Used
+- **REST API:** Universal interface for cross-language bot communication
+- **Multiple Languages:** Support for C, Java, Python, and JavaScript bot development
+- **Game Engine:** Custom Risk board game implementation
 - **REST API Design:** Comprehensive API for game state management and move execution
 - **Real-time Game Engine:** Efficient game state processing and validation
 - **Tournament System:** Automated bracket management and competition scheduling

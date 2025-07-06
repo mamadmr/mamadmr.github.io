@@ -3,7 +3,7 @@ title: "Linear Algebra Teaching Assistant"
 organization: "Isfahan University of Technology"
 description: "Python implementation of linear algebra concepts and theory assignments"
 start: "Feb 2023"
-end: "Present"
+end: "Jul 2025"
 showDuration: true
 image: ""
 ---
