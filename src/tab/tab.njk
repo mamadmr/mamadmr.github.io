@@ -1,0 +1,66 @@
+---
+pagination:
+  data: collections.tabs
+  size: 1
+  alias: tab
+permalink: /{{ tab.slug }}/
+---
+{% extends "layout.njk" %}
+
+{% block content %}
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <!-- Tab Navigation -->
+    <nav class="mb-8">
+        <div class="flex space-x-1 bg-gray-100 dark:bg-gray-800 p-1 rounded-lg">
+            {% for tabItem in collections.tabs %}
+            <a href="/{{ tabItem.slug }}/" 
+               class="px-4 py-2 rounded-md text-sm font-medium transition-colors
+                      {% if tabItem.slug == tab.slug %}
+                      bg-white dark:bg-gray-700 text-primary-600 dark:text-primary-400 shadow-sm
+                      {% else %}
+                      text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white
+                      {% endif %}">
+                {{ tabItem.name }}
+            </a>
+            {% endfor %}
+        </div>
+    </nav>
+
+    <!-- Tab Content -->
+    <div class="space-y-8">
+        <div class="text-center">
+            <h1 class="text-3xl font-bold text-gray-900 dark:text-white mb-4">{{ tab.name }}</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400">{{ tab.items.length }} items</p>
+        </div>
+
+        <!-- Items Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {% for item in tab.items %}
+            <article class="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow border border-gray-200 dark:border-gray-700">
+                <a href="/{{ tab.slug }}/{{ item.slug }}/" class="block">
+                    {% if item.image %}
+                    <div class="aspect-w-16 aspect-h-9 bg-gray-200 dark:bg-gray-700 rounded-t-lg overflow-hidden">
+                        <img src="/content/{{ tab.name }}/{{ item.name }}/images/{{ item.image }}" 
+                             alt="{{ item.title }}" 
+                             class="w-full h-48 object-cover">
+                    </div>
+                    {% endif %}
+                    
+                    <div class="p-6">
+                        <h2 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">{{ item.title }}</h2>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">{{ item.description }}</p>
+                        
+                        <div class="flex items-center justify-between text-sm text-gray-500 dark:text-gray-400">
+                            <span>{{ item.start }}</span>
+                            {% if item.end %}
+                            <span>{{ item.end }}</span>
+                            {% endif %}
+                        </div>
+                    </div>
+                </a>
+            </article>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}

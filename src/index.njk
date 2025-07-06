@@ -1,0 +1,99 @@
+---
+layout: layout.njk
+---
+
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <!-- Hero Section -->
+    <div class="text-center mb-12">
+        <h1 class="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-4">
+            Professional Resume
+        </h1>
+        <p class="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+            Explore my experience, projects, and achievements through the categories below.
+        </p>
+    </div>
+
+    <!-- Tab Navigation -->
+    <div class="flex flex-wrap justify-center mb-8 border-b border-gray-200 dark:border-gray-700">
+        {% for tab in collections.tabs %}
+        <button 
+            class="tab-button px-6 py-3 text-sm font-medium text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 border-b-2 border-transparent hover:border-gray-300 dark:hover:border-gray-600 transition-colors"
+            data-tab="{{ tab.slug }}"
+            {% if loop.first %}data-active="true"{% endif %}
+        >
+            {{ tab.name }}
+        </button>
+        {% endfor %}
+    </div>
+
+    <!-- Tab Content -->
+    {% for tab in collections.tabs %}
+    <div 
+        class="tab-content {% if not loop.first %}hidden{% endif %}"
+        id="tab-{{ tab.slug }}"
+    >
+        <div class="mb-8">
+            <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-4">{{ tab.name }}</h2>
+        </div>
+
+        {% if tab.items.length > 0 %}
+        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {% for item in tab.items %}
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+                {% if item.image %}
+                <div class="aspect-w-16 aspect-h-9 bg-gray-200 dark:bg-gray-700">
+                    <img 
+                        src="/content/{{ tab.name }}/{{ item.name }}/images/{{ item.image }}" 
+                        alt="{{ item.title }}"
+                        class="w-full h-48 object-cover"
+                        loading="lazy"
+                    >
+                </div>
+                {% endif %}
+                
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+                        {{ item.title }}
+                    </h3>
+                    
+                    {% if item.start or item.end %}
+                    <div class="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                        {% if item.start %}{{ item.start }}{% endif %}
+                        {% if item.start and item.end %} - {% endif %}
+                        {% if item.end %}{{ item.end }}{% endif %}
+                    </div>
+                    {% endif %}
+                    
+                    {% if item.description %}
+                    <p class="text-gray-700 dark:text-gray-300 mb-4 line-clamp-3">
+                        {{ item.description }}
+                    </p>
+                    {% endif %}
+                    
+                    <a 
+                        href="/{{ tab.slug }}/{{ item.slug }}/"
+                        class="inline-flex items-center px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium rounded-lg transition-colors duration-200"
+                    >
+                        View Details
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="text-center py-12">
+            <div class="text-gray-500 dark:text-gray-400">
+                <svg class="w-12 h-12 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                </svg>
+                <p class="text-lg">No items found in {{ tab.name }}</p>
+                <p class="text-sm mt-2">Add content by creating folders in /content/{{ tab.name }}/</p>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>

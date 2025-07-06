@@ -1,0 +1,25 @@
+{
+  "name": "resume-website",
+  "version": "1.0.0",
+  "description": "Static resume website with dynamic content loading",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "clean": "rm -rf docs",
+    "dev": "eleventy --serve --watch",
+    "build:prod": "npm run clean && eleventy"
+  },
+  "keywords": ["resume", "portfolio", "eleventy", "github-pages"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "markdown-it": "^14.0.0",
+    "markdown-it-anchor": "^8.6.7"
+  },
+  "dependencies": {
+    "sharp": "^0.33.0"
+  }
+}
