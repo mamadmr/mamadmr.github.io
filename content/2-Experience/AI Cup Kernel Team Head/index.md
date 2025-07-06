@@ -1,6 +1,7 @@
 ---
 title: "Head of AI Cup Kernel Team"
 description: "Led development of AI competition platform and game mechanics"
+organization: "Isfahan University of Technology"
 start: "Jun 2023"
 end: "Nov 2023"
 image: ""

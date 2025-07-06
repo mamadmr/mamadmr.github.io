@@ -1,6 +1,7 @@
 ---
 title: "VPN Operations and Infrastructure"
 description: "Self-managed network infrastructure with Nginx, Xray, and CDN integration"
+organization: "Self-Managed"
 start: "Oct 2022"
 end: "Present"
 image: ""

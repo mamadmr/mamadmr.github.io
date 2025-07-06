@@ -1,5 +1,6 @@
 ---
-title: "Computer Network TA | Isfahan University of Technology"
+title: "Computer Network TA"
+organization: "Isfahan University of Technology"
 description: "Designed and evaluated homework assignments for computer networks course"
 start: "Jan 2024"
 end: "Jun 2024"

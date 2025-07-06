@@ -1,5 +1,6 @@
 ---
-title: "Scientific Head of Ejigma | Ejhei High School"
+title: "Scientific Head of Ejigma"
+organization: "Ejhei High School"
 description: "Organized programming event to introduce students to Computer Olympiad"
 start: "Jun 2022"
 end: "Jun 2022"

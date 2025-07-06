@@ -1,5 +1,6 @@
 ---
-title: "Basic Programming TA | Isfahan University of Technology"
+title: "Basic Programming TA"
+organization: "Isfahan University of Technology"
 description: "Designed programming problems and taught Python and C/C++ to students"
 start: "Sep 2021"
 end: "Apr 2022"

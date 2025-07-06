@@ -1,8 +1,9 @@
 ---
 title: "Head of IUT ACM Student Chapter"
+organization: "Isfahan University of Technology"
 description: "Leading programming education and organizing competitive programming events"
 start: "Nov 2023"
-end: "Present"
+end: "Nov 2024"
 image: ""
 ---
 

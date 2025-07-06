@@ -1,5 +1,6 @@
 ---
-title: "Head of Robotics Programming Team | Ejhei High School"
+title: "Head of Robotics Programming Team"
+organization: "Ejhei High School"
 description: "Mentored high school students in IranOpen Robotics Challenge with ARM processors"
 start: "Jun 2022"
 end: "Apr 2023"

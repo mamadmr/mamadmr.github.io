@@ -1,5 +1,6 @@
 ---
-title: "Python Student Association Member | Math House of Isfahan"
+title: "Python Student Association Member"
+organization: "Math House of Isfahan"
 description: "Developed machine learning projects including alphabet recognition and pedestrian flow prediction"
 start: "Sep 2017"
 end: "Nov 2019"

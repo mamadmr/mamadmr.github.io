@@ -1,5 +1,6 @@
 ---
 title: "Algorithm Teaching Assistant"
+organization: "Isfahan University of Technology"
 description: "Student debugging support and algorithm homework assistance"
 start: "Sep 2023"
 end: "Jul 2024"

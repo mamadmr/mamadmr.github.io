@@ -32,6 +32,10 @@ layout: layout.njk
             </div>
         </div>
         
+        {% if item.organization %}
+        <p class="text-lg font-medium text-primary-600 dark:text-primary-400 mb-4">{{ item.organization }}</p>
+        {% endif %}
+        
         {% if item.description %}
         <p class="text-xl text-gray-600 dark:text-gray-300 mb-6">{{ item.description }}</p>
         {% endif %}
