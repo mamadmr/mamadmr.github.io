@@ -97,12 +97,22 @@ module.exports = function(eleventyConfig) {
         .filter(dirent => dirent.isDirectory())
         .map(dirent => dirent.name);
 
-      // Sort tabs to put Education first, then Experience
+      // Sort tabs by number prefix if present, otherwise alphabetically
       const sortedTabDirs = tabDirs.sort((a, b) => {
-        if (a === 'Education') return -1;
-        if (b === 'Education') return 1;
-        if (a === 'Experience') return -1;
-        if (b === 'Experience') return 1;
+        // Extract number prefix from folder names (e.g., "1-Education" -> 1)
+        const getOrderNumber = (name) => {
+          const match = name.match(/^(\d+)-/);
+          return match ? parseInt(match[1]) : 999; // Put non-numbered folders at the end
+        };
+        
+        const orderA = getOrderNumber(a);
+        const orderB = getOrderNumber(b);
+        
+        if (orderA !== orderB) {
+          return orderA - orderB;
+        }
+        
+        // If both have same order number (or both are 999), sort alphabetically
         return a.localeCompare(b);
       });
 
@@ -167,9 +177,14 @@ module.exports = function(eleventyConfig) {
           return dateB.getTime() - dateA.getTime(); // Descending order (most recent first)
         });
         
+        // Clean tab name for display (remove number prefix and dash)
+        const cleanTabName = (name) => {
+          return name.replace(/^\d+-/, '');
+        };
+        
         tabs.push({
-          name: tabName,
-          slug: tabName.toLowerCase().replace(/[^\w\s-]/g, '').replace(/[\s_-]+/g, '-').replace(/^-+|-+$/g, ''),
+          name: cleanTabName(tabName),
+          slug: cleanTabName(tabName).toLowerCase().replace(/[^\w\s-]/g, '').replace(/[\s_-]+/g, '-').replace(/^-+|-+$/g, ''),
           items: items
         });
       });
@@ -210,12 +225,17 @@ module.exports = function(eleventyConfig) {
                 const frontMatter = frontMatterMatch[1];
                 const body = frontMatterMatch[2];
                 
+                // Clean tab name for display (remove number prefix and dash)
+                const cleanTabName = (name) => {
+                  return name.replace(/^\d+-/, '');
+                };
+                
                 const item = {
                   name: itemName,
                   slug: itemName.toLowerCase().replace(/[^\w\s-]/g, '').replace(/[\s_-]+/g, '-').replace(/^-+|-+$/g, ''),
                   content: body,
-                  tab: tabName,
-                  tabSlug: tabName.toLowerCase().replace(/[^\w\s-]/g, '').replace(/[\s_-]+/g, '-').replace(/^-+|-+$/g, '')
+                  tab: cleanTabName(tabName),
+                  tabSlug: cleanTabName(tabName).toLowerCase().replace(/[^\w\s-]/g, '').replace(/[\s_-]+/g, '-').replace(/^-+|-+$/g, '')
                 };
                 
                 // Parse front matter
