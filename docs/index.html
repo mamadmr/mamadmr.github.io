@@ -73,8 +73,24 @@
         
         <button 
             class="tab-button px-6 py-3 text-sm font-medium text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 border-b-2 border-transparent hover:border-gray-300 dark:hover:border-gray-600 transition-colors"
-            data-tab="education"
+            data-tab="about"
             data-active="true"
+        >
+            About
+        </button>
+        
+        <button 
+            class="tab-button px-6 py-3 text-sm font-medium text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 border-b-2 border-transparent hover:border-gray-300 dark:hover:border-gray-600 transition-colors"
+            data-tab="awards"
+            
+        >
+            Awards
+        </button>
+        
+        <button 
+            class="tab-button px-6 py-3 text-sm font-medium text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 border-b-2 border-transparent hover:border-gray-300 dark:hover:border-gray-600 transition-colors"
+            data-tab="education"
+            
         >
             Education
         </button>
@@ -89,14 +105,6 @@
         
         <button 
             class="tab-button px-6 py-3 text-sm font-medium text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 border-b-2 border-transparent hover:border-gray-300 dark:hover:border-gray-600 transition-colors"
-            data-tab="notable-projects"
-            
-        >
-            Notable Projects
-        </button>
-        
-        <button 
-            class="tab-button px-6 py-3 text-sm font-medium text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 border-b-2 border-transparent hover:border-gray-300 dark:hover:border-gray-600 transition-colors"
             data-tab="projects"
             
         >
@@ -105,10 +113,18 @@
         
         <button 
             class="tab-button px-6 py-3 text-sm font-medium text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 border-b-2 border-transparent hover:border-gray-300 dark:hover:border-gray-600 transition-colors"
-            data-tab="teacher-assistant"
+            data-tab="skills"
             
         >
-            Teacher Assistant
+            Skills
+        </button>
+        
+        <button 
+            class="tab-button px-6 py-3 text-sm font-medium text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 border-b-2 border-transparent hover:border-gray-300 dark:hover:border-gray-600 transition-colors"
+            data-tab="teaching"
+            
+        >
+            Teaching
         </button>
         
     </div>
@@ -117,6 +133,116 @@
     
     <div 
         class="tab-content "
+        id="tab-about"
+    >
+        <div class="mb-8">
+            <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-4">About</h2>
+        </div>
+
+        
+        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+                
+                <div class="aspect-w-16 aspect-h-9 bg-gray-200 dark:bg-gray-700">
+                    <img 
+                        src="/content/About/Profile/images/profile.jpg" 
+                        alt="About Mohamad Mahdi Reisi"
+                        class="w-full h-48 object-cover"
+                        loading="lazy"
+                    >
+                </div>
+                
+                
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+                        About Mohamad Mahdi Reisi
+                    </h3>
+                    
+                    
+                    
+                    
+                    <p class="text-gray-700 dark:text-gray-300 mb-4 line-clamp-3">
+                        Computer Engineering student at Isfahan University of Technology
+                    </p>
+                    
+                    
+                    <a 
+                        href="/about/profile/"
+                        class="inline-flex items-center px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium rounded-lg transition-colors duration-200"
+                    >
+                        View Details
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+    <div 
+        class="tab-content hidden"
+        id="tab-awards"
+    >
+        <div class="mb-8">
+            <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-4">Awards</h2>
+        </div>
+
+        
+        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+                
+                <div class="aspect-w-16 aspect-h-9 bg-gray-200 dark:bg-gray-700">
+                    <img 
+                        src="/content/Awards/ICPC Achievements/images/icpc-team.jpg" 
+                        alt="ICPC Achievements and Competition Awards"
+                        class="w-full h-48 object-cover"
+                        loading="lazy"
+                    >
+                </div>
+                
+                
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+                        ICPC Achievements and Competition Awards
+                    </h3>
+                    
+                    
+                    <div class="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                        2022
+                         - 
+                        2024
+                    </div>
+                    
+                    
+                    
+                    <p class="text-gray-700 dark:text-gray-300 mb-4 line-clamp-3">
+                        Comprehensive achievements in programming contests and competitions
+                    </p>
+                    
+                    
+                    <a 
+                        href="/awards/icpc-achievements/"
+                        class="inline-flex items-center px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium rounded-lg transition-colors duration-200"
+                    >
+                        View Details
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+    <div 
+        class="tab-content hidden"
         id="tab-education"
     >
         <div class="mb-8">
@@ -130,8 +256,8 @@
                 
                 <div class="aspect-w-16 aspect-h-9 bg-gray-200 dark:bg-gray-700">
                     <img 
-                        src="/content/Education/MIT-Degree/images/mit.jpg" 
-                        alt="MIT Bachelor of Science"
+                        src="/content/Education/Computer Engineering BSc/images/iut-campus.jpg" 
+                        alt="Bachelor of Science in Computer Engineering"
                         class="w-full h-48 object-cover"
                         loading="lazy"
                     >
@@ -140,25 +266,25 @@
                 
                 <div class="p-6">
                     <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">
-                        MIT Bachelor of Science
+                        Bachelor of Science in Computer Engineering
                     </h3>
                     
                     
                     <div class="text-sm text-gray-600 dark:text-gray-400 mb-3">
-                        Sep 2015
+                        2021
                          - 
-                        Jun 2019
+                        Present
                     </div>
                     
                     
                     
                     <p class="text-gray-700 dark:text-gray-300 mb-4 line-clamp-3">
-                        Studied Computer Science and Engineering.
+                        Isfahan University of Technology - GPA: 3.80, Top 5% of students
                     </p>
                     
                     
                     <a 
-                        href="/education/mit-degree/"
+                        href="/education/computer-engineering-bsc/"
                         class="inline-flex items-center px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium rounded-lg transition-colors duration-200"
                     >
                         View Details
@@ -186,28 +312,37 @@
             
             <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden">
                 
+                <div class="aspect-w-16 aspect-h-9 bg-gray-200 dark:bg-gray-700">
+                    <img 
+                        src="/content/Experience/ACM Student Chapter Head/images/acm-event.jpg" 
+                        alt="Head of IUT ACM Student Chapter"
+                        class="w-full h-48 object-cover"
+                        loading="lazy"
+                    >
+                </div>
+                
                 
                 <div class="p-6">
                     <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">
-                        Google Software Engineering Intern
+                        Head of IUT ACM Student Chapter
                     </h3>
                     
                     
                     <div class="text-sm text-gray-600 dark:text-gray-400 mb-3">
-                        Jun 2018
+                        Nov 2023
                          - 
-                        Sep 2018
+                        Present
                     </div>
                     
                     
                     
                     <p class="text-gray-700 dark:text-gray-300 mb-4 line-clamp-3">
-                        Worked on scalable backend systems.
+                        Leading programming education and organizing competitive programming events
                     </p>
                     
                     
                     <a 
-                        href="/experience/google-internship/"
+                        href="/experience/acm-student-chapter-head/"
                         class="inline-flex items-center px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium rounded-lg transition-colors duration-200"
                     >
                         View Details
@@ -222,8 +357,8 @@
                 
                 <div class="aspect-w-16 aspect-h-9 bg-gray-200 dark:bg-gray-700">
                     <img 
-                        src="/content/Experience/MS Lesion Diagnosis and Classification/images/google.jpg" 
-                        alt="MS Lesion Diagnosis and Classification"
+                        src="/content/Experience/AI Cup Kernel Team Head/images/ai-cup-platform.png" 
+                        alt="Head of AI Cup Kernel Team"
                         class="w-full h-48 object-cover"
                         loading="lazy"
                     >
@@ -232,25 +367,25 @@
                 
                 <div class="p-6">
                     <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">
-                        MS Lesion Diagnosis and Classification
+                        Head of AI Cup Kernel Team
                     </h3>
                     
                     
                     <div class="text-sm text-gray-600 dark:text-gray-400 mb-3">
-                        Jan 2023
+                        Jun 2023
                          - 
-                        Dec 2023
+                        Nov 2023
                     </div>
                     
                     
                     
                     <p class="text-gray-700 dark:text-gray-300 mb-4 line-clamp-3">
-                        AI-powered medical imaging analysis for multiple sclerosis diagnosis.
+                        Led development of AI competition platform and game mechanics
                     </p>
                     
                     
                     <a 
-                        href="/experience/ms-lesion-diagnosis-and-classification/"
+                        href="/experience/ai-cup-kernel-team-head/"
                         class="inline-flex items-center px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium rounded-lg transition-colors duration-200"
                     >
                         View Details
@@ -261,27 +396,221 @@
                 </div>
             </div>
             
-        </div>
-        
-    </div>
-    
-    <div 
-        class="tab-content hidden"
-        id="tab-notable-projects"
-    >
-        <div class="mb-8">
-            <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-4">Notable Projects</h2>
-        </div>
-
-        
-        <div class="text-center py-12">
-            <div class="text-gray-500 dark:text-gray-400">
-                <svg class="w-12 h-12 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
-                </svg>
-                <p class="text-lg">No items found in Notable Projects</p>
-                <p class="text-sm mt-2">Add content by creating folders in /content/Notable Projects/</p>
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+                
+                <div class="aspect-w-16 aspect-h-9 bg-gray-200 dark:bg-gray-700">
+                    <img 
+                        src="/content/Experience/Python Student Association/images/python-projects.jpg" 
+                        alt="Python Student Association Member | Math House of Isfahan"
+                        class="w-full h-48 object-cover"
+                        loading="lazy"
+                    >
+                </div>
+                
+                
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+                        Python Student Association Member | Math House of Isfahan
+                    </h3>
+                    
+                    
+                    <div class="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                        Sep 2017
+                         - 
+                        Nov 2019
+                    </div>
+                    
+                    
+                    
+                    <p class="text-gray-700 dark:text-gray-300 mb-4 line-clamp-3">
+                        Developed machine learning projects including alphabet recognition and pedestrian flow prediction
+                    </p>
+                    
+                    
+                    <a 
+                        href="/experience/python-student-association/"
+                        class="inline-flex items-center px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium rounded-lg transition-colors duration-200"
+                    >
+                        View Details
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
             </div>
+            
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+                
+                <div class="aspect-w-16 aspect-h-9 bg-gray-200 dark:bg-gray-700">
+                    <img 
+                        src="/content/Experience/RAG Chatbot PayamPardaz/images/chatbot-architecture.png" 
+                        alt="RAG Chatbot Development | PayamPardaz"
+                        class="w-full h-48 object-cover"
+                        loading="lazy"
+                    >
+                </div>
+                
+                
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+                        RAG Chatbot Development | PayamPardaz
+                    </h3>
+                    
+                    
+                    <div class="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                        Jul 2024
+                         - 
+                        Present
+                    </div>
+                    
+                    
+                    
+                    <p class="text-gray-700 dark:text-gray-300 mb-4 line-clamp-3">
+                        LLaMA3-based chatbot with Milvus vector database and Rocket.Chat integration
+                    </p>
+                    
+                    
+                    <a 
+                        href="/experience/rag-chatbot-payampardaz/"
+                        class="inline-flex items-center px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium rounded-lg transition-colors duration-200"
+                    >
+                        View Details
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+                
+                <div class="aspect-w-16 aspect-h-9 bg-gray-200 dark:bg-gray-700">
+                    <img 
+                        src="/content/Experience/Robotics Programming Team Head/images/robotics-team.jpg" 
+                        alt="Head of Robotics Programming Team | Ejhei High School"
+                        class="w-full h-48 object-cover"
+                        loading="lazy"
+                    >
+                </div>
+                
+                
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+                        Head of Robotics Programming Team | Ejhei High School
+                    </h3>
+                    
+                    
+                    <div class="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                        Jun 2022
+                         - 
+                        Apr 2023
+                    </div>
+                    
+                    
+                    
+                    <p class="text-gray-700 dark:text-gray-300 mb-4 line-clamp-3">
+                        Mentored high school students in IranOpen Robotics Challenge with ARM processors
+                    </p>
+                    
+                    
+                    <a 
+                        href="/experience/robotics-programming-team-head/"
+                        class="inline-flex items-center px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium rounded-lg transition-colors duration-200"
+                    >
+                        View Details
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+                
+                <div class="aspect-w-16 aspect-h-9 bg-gray-200 dark:bg-gray-700">
+                    <img 
+                        src="/content/Experience/Scientific Head Ejigma/images/ejigma-event.jpg" 
+                        alt="Scientific Head of Ejigma | Ejhei High School"
+                        class="w-full h-48 object-cover"
+                        loading="lazy"
+                    >
+                </div>
+                
+                
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+                        Scientific Head of Ejigma | Ejhei High School
+                    </h3>
+                    
+                    
+                    <div class="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                        Jun 2022
+                         - 
+                        Jun 2022
+                    </div>
+                    
+                    
+                    
+                    <p class="text-gray-700 dark:text-gray-300 mb-4 line-clamp-3">
+                        Organized programming event to introduce students to Computer Olympiad
+                    </p>
+                    
+                    
+                    <a 
+                        href="/experience/scientific-head-ejigma/"
+                        class="inline-flex items-center px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium rounded-lg transition-colors duration-200"
+                    >
+                        View Details
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+                
+                <div class="aspect-w-16 aspect-h-9 bg-gray-200 dark:bg-gray-700">
+                    <img 
+                        src="/content/Experience/VPN Operations/images/vpn-architecture.png" 
+                        alt="VPN Operations and Infrastructure"
+                        class="w-full h-48 object-cover"
+                        loading="lazy"
+                    >
+                </div>
+                
+                
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+                        VPN Operations and Infrastructure
+                    </h3>
+                    
+                    
+                    <div class="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                        Oct 2022
+                         - 
+                        Present
+                    </div>
+                    
+                    
+                    
+                    <p class="text-gray-700 dark:text-gray-300 mb-4 line-clamp-3">
+                        Self-Managed network infrastructure with Nginx, Xray, and CDN integration
+                    </p>
+                    
+                    
+                    <a 
+                        href="/experience/vpn-operations/"
+                        class="inline-flex items-center px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium rounded-lg transition-colors duration-200"
+                    >
+                        View Details
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
         </div>
         
     </div>
@@ -301,8 +630,8 @@
                 
                 <div class="aspect-w-16 aspect-h-9 bg-gray-200 dark:bg-gray-700">
                     <img 
-                        src="/content/Projects/Resume-Builder/images/resume.png" 
-                        alt="Resume Builder Project"
+                        src="/content/Projects/Auto Door Lock IoT/images/iot-door-lock.jpg" 
+                        alt="Auto Door Lock | IoT System"
                         class="w-full h-48 object-cover"
                         loading="lazy"
                     >
@@ -311,25 +640,240 @@
                 
                 <div class="p-6">
                     <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">
-                        Resume Builder Project
+                        Auto Door Lock | IoT System
                     </h3>
                     
                     
                     <div class="text-sm text-gray-600 dark:text-gray-400 mb-3">
-                        Jan 2024
+                        2021
                          - 
-                        Present
+                        2021
                     </div>
                     
                     
                     
                     <p class="text-gray-700 dark:text-gray-300 mb-4 line-clamp-3">
-                        Open-source static resume generator.
+                        NodeMCU-based IoT system for smart locker access with real-time monitoring
                     </p>
                     
                     
                     <a 
-                        href="/projects/resume-builder/"
+                        href="/projects/auto-door-lock-iot/"
+                        class="inline-flex items-center px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium rounded-lg transition-colors duration-200"
+                    >
+                        View Details
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+                
+                <div class="aspect-w-16 aspect-h-9 bg-gray-200 dark:bg-gray-700">
+                    <img 
+                        src="/content/Projects/MS Lesion Diagnosis/images/ms-lesion-detection.png" 
+                        alt="MS Lesion Diagnosis and Classification"
+                        class="w-full h-48 object-cover"
+                        loading="lazy"
+                    >
+                </div>
+                
+                
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+                        MS Lesion Diagnosis and Classification
+                    </h3>
+                    
+                    
+                    <div class="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                        2024
+                         - 
+                        2024
+                    </div>
+                    
+                    
+                    
+                    <p class="text-gray-700 dark:text-gray-300 mb-4 line-clamp-3">
+                        UNet neural network for multiple sclerosis lesion detection using MRI images
+                    </p>
+                    
+                    
+                    <a 
+                        href="/projects/ms-lesion-diagnosis/"
+                        class="inline-flex items-center px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium rounded-lg transition-colors duration-200"
+                    >
+                        View Details
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+                
+                <div class="aspect-w-16 aspect-h-9 bg-gray-200 dark:bg-gray-700">
+                    <img 
+                        src="/content/Projects/Mano CPU Implementation/images/mano-cpu-fpga.jpg" 
+                        alt="Mano MicroProgram CPU"
+                        class="w-full h-48 object-cover"
+                        loading="lazy"
+                    >
+                </div>
+                
+                
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+                        Mano MicroProgram CPU
+                    </h3>
+                    
+                    
+                    <div class="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                        2023
+                         - 
+                        2023
+                    </div>
+                    
+                    
+                    
+                    <p class="text-gray-700 dark:text-gray-300 mb-4 line-clamp-3">
+                        FPGA implementation and Python simulator for Mano CPU architecture
+                    </p>
+                    
+                    
+                    <a 
+                        href="/projects/mano-cpu-implementation/"
+                        class="inline-flex items-center px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium rounded-lg transition-colors duration-200"
+                    >
+                        View Details
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+                
+                <div class="aspect-w-16 aspect-h-9 bg-gray-200 dark:bg-gray-700">
+                    <img 
+                        src="/content/Projects/Melanoma Cancer Diagnosis/images/melanoma-diagnosis.jpg" 
+                        alt="Melanoma Cancer Diagnosis | Image Processing"
+                        class="w-full h-48 object-cover"
+                        loading="lazy"
+                    >
+                </div>
+                
+                
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+                        Melanoma Cancer Diagnosis | Image Processing
+                    </h3>
+                    
+                    
+                    <div class="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                        2017
+                         - 
+                        2017
+                    </div>
+                    
+                    
+                    
+                    <p class="text-gray-700 dark:text-gray-300 mb-4 line-clamp-3">
+                        Custom image processing algorithm for melanoma cancer detection and diagnosis
+                    </p>
+                    
+                    
+                    <a 
+                        href="/projects/melanoma-cancer-diagnosis/"
+                        class="inline-flex items-center px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium rounded-lg transition-colors duration-200"
+                    >
+                        View Details
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+                
+                <div class="aspect-w-16 aspect-h-9 bg-gray-200 dark:bg-gray-700">
+                    <img 
+                        src="/content/Projects/Multi Vitamin Event Management/images/event-management-dashboard.png" 
+                        alt="Multi Vitamin Event Management System"
+                        class="w-full h-48 object-cover"
+                        loading="lazy"
+                    >
+                </div>
+                
+                
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+                        Multi Vitamin Event Management System
+                    </h3>
+                    
+                    
+                    <div class="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                        2022
+                         - 
+                        2022
+                    </div>
+                    
+                    
+                    
+                    <p class="text-gray-700 dark:text-gray-300 mb-4 line-clamp-3">
+                        Comprehensive competition management system with automated scoring and real-time updates
+                    </p>
+                    
+                    
+                    <a 
+                        href="/projects/multi-vitamin-event-management/"
+                        class="inline-flex items-center px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium rounded-lg transition-colors duration-200"
+                    >
+                        View Details
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+                
+                <div class="aspect-w-16 aspect-h-9 bg-gray-200 dark:bg-gray-700">
+                    <img 
+                        src="/content/Projects/Risk Board Game/images/risk-game-interface.png" 
+                        alt="Risk Board Game Implementation"
+                        class="w-full h-48 object-cover"
+                        loading="lazy"
+                    >
+                </div>
+                
+                
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+                        Risk Board Game Implementation
+                    </h3>
+                    
+                    
+                    <div class="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                        2023
+                         - 
+                        2023
+                    </div>
+                    
+                    
+                    
+                    <p class="text-gray-700 dark:text-gray-300 mb-4 line-clamp-3">
+                        Multi-language competitive gaming platform with REST API and bot interface
+                    </p>
+                    
+                    
+                    <a 
+                        href="/projects/risk-board-game/"
                         class="inline-flex items-center px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium rounded-lg transition-colors duration-200"
                     >
                         View Details
@@ -346,21 +890,288 @@
     
     <div 
         class="tab-content hidden"
-        id="tab-teacher-assistant"
+        id="tab-skills"
     >
         <div class="mb-8">
-            <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-4">Teacher Assistant</h2>
+            <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-4">Skills</h2>
         </div>
 
         
-        <div class="text-center py-12">
-            <div class="text-gray-500 dark:text-gray-400">
-                <svg class="w-12 h-12 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
-                </svg>
-                <p class="text-lg">No items found in Teacher Assistant</p>
-                <p class="text-sm mt-2">Add content by creating folders in /content/Teacher Assistant/</p>
+        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+                
+                <div class="aspect-w-16 aspect-h-9 bg-gray-200 dark:bg-gray-700">
+                    <img 
+                        src="/content/Skills/Technical Skills/images/technical-skills.jpg" 
+                        alt="Technical Skills and Tools"
+                        class="w-full h-48 object-cover"
+                        loading="lazy"
+                    >
+                </div>
+                
+                
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+                        Technical Skills and Tools
+                    </h3>
+                    
+                    
+                    <div class="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                        2017
+                         - 
+                        Present
+                    </div>
+                    
+                    
+                    
+                    <p class="text-gray-700 dark:text-gray-300 mb-4 line-clamp-3">
+                        Comprehensive overview of programming languages, frameworks, and development tools
+                    </p>
+                    
+                    
+                    <a 
+                        href="/skills/technical-skills/"
+                        class="inline-flex items-center px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium rounded-lg transition-colors duration-200"
+                    >
+                        View Details
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
             </div>
+            
+        </div>
+        
+    </div>
+    
+    <div 
+        class="tab-content hidden"
+        id="tab-teaching"
+    >
+        <div class="mb-8">
+            <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-4">Teaching</h2>
+        </div>
+
+        
+        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+                
+                <div class="aspect-w-16 aspect-h-9 bg-gray-200 dark:bg-gray-700">
+                    <img 
+                        src="/content/Teaching/Algorithm TA/images/algorithm-debugging.png" 
+                        alt="Algorithm Teaching Assistant"
+                        class="w-full h-48 object-cover"
+                        loading="lazy"
+                    >
+                </div>
+                
+                
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+                        Algorithm Teaching Assistant
+                    </h3>
+                    
+                    
+                    <div class="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                        Sep 2023
+                         - 
+                        Jul 2024
+                    </div>
+                    
+                    
+                    
+                    <p class="text-gray-700 dark:text-gray-300 mb-4 line-clamp-3">
+                        Student debugging support and algorithm homework assistance
+                    </p>
+                    
+                    
+                    <a 
+                        href="/teaching/algorithm-ta/"
+                        class="inline-flex items-center px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium rounded-lg transition-colors duration-200"
+                    >
+                        View Details
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+                
+                <div class="aspect-w-16 aspect-h-9 bg-gray-200 dark:bg-gray-700">
+                    <img 
+                        src="/content/Teaching/Basic Programming TA/images/basic-programming-ta.jpg" 
+                        alt="Basic Programming TA | Isfahan University of Technology"
+                        class="w-full h-48 object-cover"
+                        loading="lazy"
+                    >
+                </div>
+                
+                
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+                        Basic Programming TA | Isfahan University of Technology
+                    </h3>
+                    
+                    
+                    <div class="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                        Sep 2021
+                         - 
+                        Apr 2022
+                    </div>
+                    
+                    
+                    
+                    <p class="text-gray-700 dark:text-gray-300 mb-4 line-clamp-3">
+                        Designed programming problems and taught Python and C/C++ to students
+                    </p>
+                    
+                    
+                    <a 
+                        href="/teaching/basic-programming-ta/"
+                        class="inline-flex items-center px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium rounded-lg transition-colors duration-200"
+                    >
+                        View Details
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+                
+                <div class="aspect-w-16 aspect-h-9 bg-gray-200 dark:bg-gray-700">
+                    <img 
+                        src="/content/Teaching/Computer Network TA/images/computer-network-ta.jpg" 
+                        alt="Computer Network TA | Isfahan University of Technology"
+                        class="w-full h-48 object-cover"
+                        loading="lazy"
+                    >
+                </div>
+                
+                
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+                        Computer Network TA | Isfahan University of Technology
+                    </h3>
+                    
+                    
+                    <div class="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                        Jan 2024
+                         - 
+                        Jun 2024
+                    </div>
+                    
+                    
+                    
+                    <p class="text-gray-700 dark:text-gray-300 mb-4 line-clamp-3">
+                        Designed and evaluated homework assignments for computer networks course
+                    </p>
+                    
+                    
+                    <a 
+                        href="/teaching/computer-network-ta/"
+                        class="inline-flex items-center px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium rounded-lg transition-colors duration-200"
+                    >
+                        View Details
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+                
+                <div class="aspect-w-16 aspect-h-9 bg-gray-200 dark:bg-gray-700">
+                    <img 
+                        src="/content/Teaching/Linear Algebra TA/images/linear-algebra-python.png" 
+                        alt="Linear Algebra Teaching Assistant"
+                        class="w-full h-48 object-cover"
+                        loading="lazy"
+                    >
+                </div>
+                
+                
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+                        Linear Algebra Teaching Assistant
+                    </h3>
+                    
+                    
+                    <div class="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                        Feb 2023
+                         - 
+                        Present
+                    </div>
+                    
+                    
+                    
+                    <p class="text-gray-700 dark:text-gray-300 mb-4 line-clamp-3">
+                        Python implementation of linear algebra concepts and theory assignments
+                    </p>
+                    
+                    
+                    <a 
+                        href="/teaching/linear-algebra-ta/"
+                        class="inline-flex items-center px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium rounded-lg transition-colors duration-200"
+                    >
+                        View Details
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+                
+                <div class="aspect-w-16 aspect-h-9 bg-gray-200 dark:bg-gray-700">
+                    <img 
+                        src="/content/Teaching/Operating Systems TA/images/operating-systems-lecture.jpg" 
+                        alt="Operating Systems Teaching Assistant"
+                        class="w-full h-48 object-cover"
+                        loading="lazy"
+                    >
+                </div>
+                
+                
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+                        Operating Systems Teaching Assistant
+                    </h3>
+                    
+                    
+                    <div class="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                        Sep 2024
+                         - 
+                        Present
+                    </div>
+                    
+                    
+                    
+                    <p class="text-gray-700 dark:text-gray-300 mb-4 line-clamp-3">
+                        Assignment evaluation and optional lectures on OS features
+                    </p>
+                    
+                    
+                    <a 
+                        href="/teaching/operating-systems-ta/"
+                        class="inline-flex items-center px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium rounded-lg transition-colors duration-200"
+                    >
+                        View Details
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
         </div>
         
     </div>
