@@ -1,1 +1,161 @@
-<h1>Hello World</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe - CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #333;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #666;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .job, .education-item {
+            margin-bottom: 20px;
+        }
+        .job-title, .degree {
+            font-weight: bold;
+            color: #333;
+        }
+        .company, .school {
+            font-style: italic;
+            color: #666;
+        }
+        .date {
+            float: right;
+            color: #999;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill {
+            background-color: #e9e9e9;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        ul {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>John Doe</h1>
+            <p>Software Developer</p>
+            <div class="contact-info">
+                <span>📧 john.doe@email.com</span>
+                <span>📱 (555) 123-4567</span>
+                <span>🌐 linkedin.com/in/johndoe</span>
+                <span>📍 San Francisco, CA</span>
+            </div>
+        </header>
+
+        <section class="section">
+            <h2>Professional Summary</h2>
+            <p>Experienced software developer with 5+ years of expertise in full-stack development. Passionate about creating efficient, scalable solutions and working with modern web technologies. Strong problem-solving skills and ability to work effectively in team environments.</p>
+        </section>
+
+        <section class="section">
+            <h2>Work Experience</h2>
+            <div class="job">
+                <div class="job-title">Senior Software Developer</div>
+                <div class="company">Tech Solutions Inc.</div>
+                <div class="date">2021 - Present</div>
+                <ul>
+                    <li>Led development of customer-facing web applications using React and Node.js</li>
+                    <li>Improved application performance by 40% through code optimization</li>
+                    <li>Mentored junior developers and conducted code reviews</li>
+                    <li>Collaborated with cross-functional teams to deliver projects on time</li>
+                </ul>
+            </div>
+            <div class="job">
+                <div class="job-title">Software Developer</div>
+                <div class="company">Digital Innovations LLC</div>
+                <div class="date">2019 - 2021</div>
+                <ul>
+                    <li>Developed and maintained web applications using JavaScript, HTML, and CSS</li>
+                    <li>Implemented RESTful APIs and integrated third-party services</li>
+                    <li>Participated in agile development processes and daily standups</li>
+                    <li>Contributed to database design and optimization</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Education</h2>
+            <div class="education-item">
+                <div class="degree">Bachelor of Science in Computer Science</div>
+                <div class="school">University of California, Berkeley</div>
+                <div class="date">2015 - 2019</div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Skills</h2>
+            <div class="skills">
+                <span class="skill">JavaScript</span>
+                <span class="skill">React</span>
+                <span class="skill">Node.js</span>
+                <span class="skill">Python</span>
+                <span class="skill">SQL</span>
+                <span class="skill">Git</span>
+                <span class="skill">HTML/CSS</span>
+                <span class="skill">Docker</span>
+                <span class="skill">AWS</span>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Projects</h2>
+            <div class="job">
+                <div class="job-title">E-commerce Platform</div>
+                <div class="company">Personal Project</div>
+                <div class="date">2023</div>
+                <ul>
+                    <li>Built a full-stack e-commerce application with React and Express.js</li>
+                    <li>Implemented user authentication, payment processing, and inventory management</li>
+                    <li>Deployed on AWS with automated CI/CD pipeline</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
