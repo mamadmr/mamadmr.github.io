@@ -24,6 +24,11 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.setLibrary("md", md);
 
+  // Add markdown filter
+  eleventyConfig.addFilter("markdown", function(content) {
+    return md.render(content);
+  });
+
   // Date filters
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");
@@ -107,19 +112,60 @@ module.exports = function(eleventyConfig) {
 
   // Collection for all items
   eleventyConfig.addCollection("allItems", function(collection) {
-    const tabs = collection.getAll().find(item => item.data.collections?.tabs);
+    const contentDir = "./content";
     const allItems = [];
     
-    if (tabs && tabs.data.tabs) {
-      tabs.data.tabs.forEach(tab => {
-        tab.items.forEach(item => {
-          allItems.push({
-            ...item,
-            tab: tab.name,
-            tabSlug: tab.slug
+    try {
+      const tabDirs = fs.readdirSync(contentDir, { withFileTypes: true })
+        .filter(dirent => dirent.isDirectory())
+        .map(dirent => dirent.name);
+
+      tabDirs.forEach(tabName => {
+        const tabPath = path.join(contentDir, tabName);
+        
+        try {
+          const itemDirs = fs.readdirSync(tabPath, { withFileTypes: true })
+            .filter(dirent => dirent.isDirectory())
+            .map(dirent => dirent.name);
+
+          itemDirs.forEach(itemName => {
+            const itemPath = path.join(tabPath, itemName);
+            const indexPath = path.join(itemPath, "index.md");
+            
+            if (fs.existsSync(indexPath)) {
+              const content = fs.readFileSync(indexPath, "utf-8");
+              const frontMatterMatch = content.match(/^---\s*\n(.*?)\n---\s*\n(.*)$/s);
+              
+              if (frontMatterMatch) {
+                const frontMatter = frontMatterMatch[1];
+                const body = frontMatterMatch[2];
+                
+                const item = {
+                  name: itemName,
+                  slug: itemName.toLowerCase().replace(/[^\w\s-]/g, '').replace(/[\s_-]+/g, '-').replace(/^-+|-+$/g, ''),
+                  content: body,
+                  tab: tabName,
+                  tabSlug: tabName.toLowerCase().replace(/[^\w\s-]/g, '').replace(/[\s_-]+/g, '-').replace(/^-+|-+$/g, '')
+                };
+                
+                // Parse front matter
+                frontMatter.split('\n').forEach(line => {
+                  const match = line.match(/^([^:]+):\s*"?([^"]*)"?$/);
+                  if (match) {
+                    item[match[1].trim()] = match[2].trim();
+                  }
+                });
+                
+                allItems.push(item);
+              }
+            }
           });
-        });
+        } catch (err) {
+          console.log(`Error reading items in ${tabName}:`, err.message);
+        }
       });
+    } catch (err) {
+      console.log("Error reading content directory:", err.message);
     }
     
     return allItems;
