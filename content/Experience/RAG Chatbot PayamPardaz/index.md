@@ -7,28 +7,22 @@ image: ""
 ---
 
 ### Project Overview
-Developed an advanced RAG (Retrieval-Augmented Generation) chatbot system to answer queries based on company documents, providing intelligent and contextual responses to user questions.
+Developed advanced RAG (Retrieval-Augmented Generation) chatbot system for answering queries based on company documents, providing intelligent and contextual responses through semantic search and language generation.
 
-### Key Technologies
-- **LLaMA3 Model:** Large language model for natural language understanding and generation
-- **Milvus Vector Database:** High-performance vector database for semantic search and retrieval
-- **Rocket.Chat Integration:** Seamless communication platform integration for user interaction
-
-### Development Contributions
-- **Document Processing Pipeline:** Built system to ingest and vectorize company documents
-- **Semantic Search Implementation:** Developed retrieval system using vector similarity search
-- **Context-Aware Responses:** Integrated LLaMA3 with retrieved documents for accurate answers
-- **Chat Platform Integration:** Seamlessly integrated chatbot with Rocket.Chat for real-time communication
+### Technical Implementation
+- **LLaMA3 Integration:** Implemented large language model for natural language understanding and generation
+- **Milvus Vector Database:** Deployed high-performance vector database for semantic document search and retrieval
+- **Document Processing Pipeline:** Built system to ingest, vectorize, and index company documents for efficient retrieval
+- **Rocket.Chat Integration:** Seamlessly integrated chatbot with communication platform for real-time user interaction
 
 ### SaaS Platform Development
-- **No-Code Platform:** Collaborated on building a SaaS platform for chatbot creation without coding skills
-- **Backend Architecture:** Contributed to scalable backend design ensuring easy deployment
-- **Client Customization:** Enabled various client needs through flexible architecture design
-- **Team Collaboration:** Worked with cross-functional team to deliver comprehensive solution
+- **No-Code Platform:** Contributed to building SaaS platform enabling chatbot creation without coding requirements
+- **Scalable Backend Architecture:** Designed and implemented backend systems supporting multiple concurrent users
+- **Client Customization:** Developed flexible architecture accommodating various client needs and configurations
+- **Cross-functional Collaboration:** Worked with team to deliver comprehensive AI solution
 
-### Technical Achievements
-- Implemented efficient document embedding and retrieval system
-- Achieved high accuracy in document-based question answering
-- Designed scalable architecture supporting multiple concurrent users
-- Created user-friendly interface for non-technical users
+### Key Achievements
+- Implemented efficient document embedding and retrieval system achieving high accuracy in question answering
+- Created user-friendly interface enabling non-technical users to deploy custom chatbots
+- Delivered scalable solution handling multiple concurrent users and diverse document types
 

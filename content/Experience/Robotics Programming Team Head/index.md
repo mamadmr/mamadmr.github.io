@@ -6,35 +6,21 @@ end: "Apr 2023"
 image: ""
 ---
 
-### Leadership Role
-Led and mentored high school students in the prestigious IranOpen Robotics Challenge, focusing on advanced programming techniques and robotics competition preparation.
+### Leadership & Mentorship
+Led and mentored high school students in IranOpen Robotics Challenge, focusing on ARM processor programming and competitive robotics preparation.
 
-### Key Responsibilities
-- **Student Mentorship:** Guided high school students through complex robotics programming challenges
-- **Technical Training:** Taught ARM processor programming using C language
-- **Competition Preparation:** Prepared students for national-level robotics competitions
-- **Project Management:** Coordinated team activities and project timelines
+### Technical Training
+- **ARM Processor Programming:** Specialized instruction in ARM architecture and C programming for robotics applications
+- **Real-time Systems:** Taught real-time programming concepts essential for robotics control systems
+- **Hardware Integration:** Guided students through hardware-software integration projects and troubleshooting
+- **Competition Preparation:** Prepared students for national-level robotics competitions with hands-on training
 
-### Technical Focus
-- **ARM Processor Programming:** Specialized instruction in ARM architecture and C programming
-- **Real-time Systems:** Taught real-time programming concepts for robotics applications
-- **Hardware Integration:** Guided students in hardware-software integration projects
-- **Problem-Solving:** Developed analytical thinking and debugging skills
+### Key Achievements
+- **Student Development:** Enhanced students' programming abilities and technical problem-solving skills
+- **Competition Readiness:** Successfully prepared students for IranOpen Robotics Challenge participation
+- **Technical Expertise:** Developed students' proficiency in ARM programming and real-time systems
+- **Mentorship Impact:** Guided students through complex robotics projects from concept to implementation
 
-### Educational Impact
-- **Skill Development:** Enhanced students' programming and technical problem-solving abilities
-- **Competition Success:** Prepared students for successful participation in IranOpen
-- **Career Guidance:** Provided mentorship for students interested in engineering careers
-- **Team Building:** Fostered collaborative learning environment
-
-### Competition Achievements
-- **IranOpen Participation:** Successfully prepared students for national robotics competition
-- **Technical Excellence:** Demonstrated advanced programming techniques to students
-- **Knowledge Transfer:** Effectively communicated complex technical concepts to young learners
-
-### Skills Developed
-- **Leadership:** Team management and student mentorship
-- **Technical Communication:** Explaining complex concepts to diverse audiences
-- **Educational Planning:** Curriculum development for robotics programming
-- **Project Coordination:** Managing multiple student projects simultaneously
+### Skills & Technologies
+Specialized in ARM processor programming, C language instruction, robotics system design, and competitive programming mentorship for high school students.
 

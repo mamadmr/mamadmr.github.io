@@ -97,10 +97,12 @@ module.exports = function(eleventyConfig) {
         .filter(dirent => dirent.isDirectory())
         .map(dirent => dirent.name);
 
-      // Sort tabs to put Education first
+      // Sort tabs to put Education first, then Experience
       const sortedTabDirs = tabDirs.sort((a, b) => {
         if (a === 'Education') return -1;
         if (b === 'Education') return 1;
+        if (a === 'Experience') return -1;
+        if (b === 'Experience') return 1;
         return a.localeCompare(b);
       });
 
