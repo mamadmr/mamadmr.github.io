@@ -81,7 +81,16 @@ layout: layout.njk
         <div class="space-y-6">
             {% for item in tab.items %}
             <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+                {% set showDetails = true %}
+                {% if item.showDetails is defined and item.showDetails == false %}
+                    {% set showDetails = false %}
+                {% elif item.content and item.content.trim().length < 100 %}
+                    {% set showDetails = false %}
+                {% endif %}
+                
+                {% if showDetails %}
                 <a href="/{{ tab.slug }}/{{ item.slug }}/" class="block">
+                {% endif %}
                     <div class="md:flex">
                         {% if item.image and item.image != "" and item.image != "placeholder.jpg" and item.image != "README.md" %}
                         <div class="md:flex-shrink-0">
@@ -123,6 +132,7 @@ layout: layout.njk
                             </div>
                             
                             <div class="flex items-center justify-between">
+                                {% if showDetails %}
                                 <div class="text-sm text-gray-500 dark:text-gray-400">
                                     Click to view details
                                 </div>
@@ -132,9 +142,13 @@ layout: layout.njk
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                                     </svg>
                                 </div>
+                                {% endif %}
                             </div>
                         </div>
                     </div>
+                {% if showDetails %}
+                </a>
+                {% endif %}
             </div>
             {% endfor %}
         </div>

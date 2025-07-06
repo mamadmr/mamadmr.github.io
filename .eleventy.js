@@ -136,7 +136,17 @@ module.exports = function(eleventyConfig) {
                 frontMatter.split('\n').forEach(line => {
                   const match = line.match(/^([^:]+):\s*"?([^"]*)"?$/);
                   if (match) {
-                    item[match[1].trim()] = match[2].trim();
+                    const key = match[1].trim();
+                    let value = match[2].trim();
+                    
+                    // Handle boolean values
+                    if (value === 'true') {
+                      value = true;
+                    } else if (value === 'false') {
+                      value = false;
+                    }
+                    
+                    item[key] = value;
                   }
                 });
                 
@@ -210,7 +220,17 @@ module.exports = function(eleventyConfig) {
                 frontMatter.split('\n').forEach(line => {
                   const match = line.match(/^([^:]+):\s*"?([^"]*)"?$/);
                   if (match) {
-                    item[match[1].trim()] = match[2].trim();
+                    const key = match[1].trim();
+                    let value = match[2].trim();
+                    
+                    // Handle boolean values
+                    if (value === 'true') {
+                      value = true;
+                    } else if (value === 'false') {
+                      value = false;
+                    }
+                    
+                    item[key] = value;
                   }
                 });
                 

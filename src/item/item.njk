@@ -4,8 +4,8 @@ pagination:
   size: 1
   alias: item
 permalink: /{{ item.tabSlug }}/{{ item.slug }}/
+layout: layout.njk
 ---
-{% extends "layout.njk" %}
 
 <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
     <!-- Breadcrumb -->
@@ -54,7 +54,7 @@ permalink: /{{ item.tabSlug }}/{{ item.slug }}/
     <!-- Navigation -->
     <nav class="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
         <div class="flex justify-between">
-            <a href="/{{ item.tabSlug }}/" 
+            <a href="/#{{ item.tabSlug }}" 
                class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-md hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors">
                 <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
