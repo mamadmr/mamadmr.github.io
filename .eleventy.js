@@ -44,6 +44,31 @@ module.exports = function(eleventyConfig) {
     return str.toLowerCase().replace(/[^\w\s-]/g, '').replace(/[\s_-]+/g, '-').replace(/^-+|-+$/g, '');
   });
 
+  // Duration calculation filter
+  eleventyConfig.addFilter("calculateDuration", (startDate, endDate) => {
+    if (!startDate) return "";
+    
+    const start = parseDate(startDate);
+    const end = endDate ? parseDate(endDate) : new Date();
+    
+    const diffInMonths = (end.getFullYear() - start.getFullYear()) * 12 + (end.getMonth() - start.getMonth());
+    
+    if (diffInMonths < 1) {
+      return "Less than 1 month";
+    } else if (diffInMonths < 12) {
+      return `${diffInMonths} month${diffInMonths > 1 ? 's' : ''}`;
+    } else {
+      const years = Math.floor(diffInMonths / 12);
+      const months = diffInMonths % 12;
+      
+      if (months === 0) {
+        return `${years} year${years > 1 ? 's' : ''}`;
+      } else {
+        return `${years} year${years > 1 ? 's' : ''}, ${months} month${months > 1 ? 's' : ''}`;
+      }
+    }
+  });
+
   // Helper function to parse dates
   function parseDate(dateString) {
     if (!dateString) return new Date(0); // Default to earliest date if no date

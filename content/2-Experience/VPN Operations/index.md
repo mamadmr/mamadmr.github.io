@@ -5,6 +5,7 @@ organization: "Self-Managed"
 start: "Oct 2022"
 end: "Present"
 image: ""
+showDuration: true
 ---
 
 ### Technical Infrastructure

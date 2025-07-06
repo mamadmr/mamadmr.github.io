@@ -5,6 +5,7 @@ description: "Mentored high school students in IranOpen Robotics Challenge with 
 start: "Jun 2022"
 end: "Apr 2023"
 image: ""
+showDuration: true
 ---
 
 ### Leadership & Mentorship

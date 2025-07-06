@@ -5,6 +5,7 @@ description: "Organized programming event to introduce students to Computer Olym
 start: "Jun 2022"
 end: "Jun 2022"
 image: ""
+showDuration: true
 ---
 
 ### Event Leadership

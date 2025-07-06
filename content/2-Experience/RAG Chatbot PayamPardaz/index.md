@@ -3,7 +3,8 @@ title: "RAG Chatbot Development"
 description: "LLaMA3-based chatbot with Milvus vector database and Rocket.Chat integration"
 organization: "PayamPardaz"
 start: "Jul 2024"
-end: "Present"
+end: "Feb 2025"
+showDuration: true
 image: ""
 ---
 

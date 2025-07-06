@@ -133,6 +133,11 @@ description: "Computer Engineering student at Isfahan University of Technology w
                                         {% if item.end %}
                                         <div>{{ item.end }}</div>
                                         {% endif %}
+                                        {% if item.showDuration %}
+                                        <div class="text-xs text-blue-600 dark:text-blue-400 font-medium mt-1">
+                                            {{ item.start | calculateDuration(item.end) }}
+                                        </div>
+                                        {% endif %}
                                     </div>
                                     {% endif %}
                                 </div>

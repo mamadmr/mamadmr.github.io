@@ -23,11 +23,18 @@ layout: layout.njk
     <header class="mb-8">
         <div class="flex items-center justify-between mb-4">
             <h1 class="text-4xl font-bold text-gray-900 dark:text-white">{{ item.title }}</h1>
-            <div class="flex items-center space-x-4 text-sm text-gray-500 dark:text-gray-400">
-                <span>{{ item.start }}</span>
-                {% if item.end %}
-                <span>–</span>
-                <span>{{ item.end }}</span>
+            <div class="flex flex-col items-end space-y-1 text-sm text-gray-500 dark:text-gray-400">
+                <div class="flex items-center space-x-2">
+                    <span>{{ item.start }}</span>
+                    {% if item.end %}
+                    <span>–</span>
+                    <span>{{ item.end }}</span>
+                    {% endif %}
+                </div>
+                {% if item.showDuration %}
+                <div class="text-xs text-blue-600 dark:text-blue-400 font-medium">
+                    {{ item.start | calculateDuration(item.end) }}
+                </div>
                 {% endif %}
             </div>
         </div>

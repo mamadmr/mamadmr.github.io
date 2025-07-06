@@ -5,6 +5,7 @@ organization: "Isfahan University of Technology"
 start: "Jun 2023"
 end: "Nov 2023"
 image: ""
+showDuration: true
 ---
 
 ### Project Leadership

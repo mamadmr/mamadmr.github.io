@@ -5,6 +5,7 @@ description: "Developed machine learning projects including alphabet recognition
 start: "Sep 2017"
 end: "Nov 2019"
 image: ""
+showDuration: true
 ---
 
 ### Association Membership

@@ -4,6 +4,7 @@ organization: "Isfahan University of Technology"
 description: "Python implementation of linear algebra concepts and theory assignments"
 start: "Feb 2023"
 end: "Present"
+showDuration: true
 image: ""
 ---
 
